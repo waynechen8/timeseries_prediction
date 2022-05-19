@@ -6,7 +6,7 @@ import sys
 import datetime
 
 parser=ArgumentParser()
-parser.add_argument("-influx_host",    type=str, nargs="?", help="influxdb ip", default="10.10.75.106")
+parser.add_argument("-influx_host",    type=str, nargs="?", help="influxdb ip")
 parser.add_argument("-influx_passwd",  type=str, nargs="?")
 parser.add_argument("-guid",     type=str, nargs="?", help="guid")
 parser.add_argument("-startTime",      type=str, nargs="?", \
